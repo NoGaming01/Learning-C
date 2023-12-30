@@ -17,7 +17,7 @@ int main() {
 
     //! Examples of Data Types
     int myNum = 3783;             // Integer (whole number)
-    float myFloatNum = 239;   // Floating point number
+    float myFloatNum = 2.39;   // Floating point number
     char myLetter = 'S';       // Character
 
     // Print variables
@@ -26,12 +26,12 @@ int main() {
     printf("%c\n", myLetter);
 
     //! Set Decimal Precision
-    float myFloatNum = 3.5;
+    float myTestNum = 3.5;
 
-    printf("%f\n", myFloatNum); // Default will show 6 digits after the decimal point
-    printf("%.1f\n", myFloatNum); // Only show 1 digit
-    printf("%.2f\n", myFloatNum); // Only show 2 digits
-    printf("%.4f", myFloatNum);   // Only show 4 digits
+    printf("%f\n", myTestNum); // Default will show 6 digits after the decimal point
+    printf("%.1f\n", myTestNum); // Only show 1 digit
+    printf("%.2f\n", myTestNum); // Only show 2 digits
+    printf("%.4f", myTestNum);   // Only show 4 digits
 
     return 0;
 }
