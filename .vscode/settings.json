@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.html": "html",
-        "Type Conversion.C": "cpp"
+        "Type Conversion.C": "cpp",
+        "stdio.h": "c"
     }
 }
