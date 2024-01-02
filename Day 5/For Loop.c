@@ -14,15 +14,15 @@
 int main() {
     // Using a for loop to print numbers from 1 to 5
     printf("Printing numbers from 1 to 5:\n");
-    for (int i = 1; i <= 5; i++) {
+    for (int i = 1; i <= 5; ++i) {
         printf("%d ", i);
     }
     printf("\n\n");
 
     // Using nested for loops to create a simple multiplication table
     printf("Multiplication Table:\n");
-    for (int row = 1; row <= 5; row++) {
-        for (int col = 1; col <= 5; col++) {
+    for (int row = 1; row <= 5; ++row) {
+        for (int col = 1; col <= 5; ++col) {
             printf("%d\t", row * col);
         }
         printf("\n");
