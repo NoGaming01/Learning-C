@@ -1,3 +1,5 @@
+# Sorry Guys I got exams so I cant work on this right now.
+
 # Learning-C
 I am going to learn C programming language and you can see this repository to learn C also.
 
